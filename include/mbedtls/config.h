@@ -1484,7 +1484,7 @@
  *
  * Uncomment to disable SHA-384
  */
-//#define MBEDTLS_SHA512_NO_SHA384
+#define MBEDTLS_SHA512_NO_SHA384
 
 /**
  * \def MBEDTLS_SSL_ALL_ALERT_MESSAGES
