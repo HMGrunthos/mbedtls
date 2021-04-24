@@ -1,0 +1,4 @@
+export PATH=$PATH:$HOME/src/Work/stm32cubeide_1.6.1/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_1.5.0.202011040924/tools/bin
+git clone git@github.com:HMGrunthos/mbedtls.git -b STM32F7Azurembedtls-2.26.0
+cmake .. -DENABLE_TESTING=OFF -DENABLE_PROGRAMS=OFF -DCMAKE_INSTALL_PREFIX=$HOME/tmp/mb -DCMAKE_TOOLCHAIN_FILE=../arm-gcc-toolchain.cmake
+cmake --build . --verbose
